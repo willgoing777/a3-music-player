@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A3 Music Player</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top-bar">
+            <i id="list" class="material-icons">queue_music</i>
+            <span>Now Playing</span>
+            <i id="volume" class="material-icons">volume_up</i>
+        </div>
+        <div class="image">
+            <img src="" alt="">
+                <i id="pause" class="material-icons">play_arrow</i>
+        </div>
+        <div class="progress">
+            <div class="bar">
+            </div>
+            <div class="timer">
+                <span class="current">0:00</span>
+                <span class="duration"></span>
+            </div>
+            <audio id="current-audio" src=""></audio>
+        </div>
+        <div class="detail">
+            <i id="previous" class="material-icons">skip_previous</i>
+            <div class="info">
+                <p class="name"></p>
+                <p class="artist"></p>
+            </div>
+            <i id="next" class="material-icons">skip_next</i>
+        </div>
+        <div class="songs-list">
+            <div class="header">
+                <div class="item">
+                    <i class="material-icons">queue_music</i>
+                    <span>My List</span>
+                </div>
+                
+                <i id="close" class="material-icons">close</i>
+            </div>
+            <ul>
+            </ul>
+        </div>  
+    </div>
+</body>
+<script src="./js/script.js"></script>
+</html>
